@@ -1,10 +1,12 @@
 
+import skeleton.Skeleton;
+
 class Test {
         
     static function main() {
 
-        trace(empty.Empty.example());
-
+        final skeleton = Skeleton.init();
+        trace(skeleton);
     }
 
 }

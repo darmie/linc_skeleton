@@ -6,14 +6,10 @@
 #endif
 
 //include other library includes as needed
-// #include "../lib/____"
+#include "../lib/libskeleton/include/skeleton/skeleton.h"
 
 namespace linc {
 
-    namespace empty {
-
-        extern int example();
-
-    } //empty namespace
+ //empty namespace
 
 } //linc

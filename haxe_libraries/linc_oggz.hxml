@@ -1,0 +1,3 @@
+# @install: lix --silent download "gh://github.com/darmie/linc_oggz#ff12d520c6be8ce6d6188c00c1ac61deabf82da2" into linc_oggz/0.0.0/github/ff12d520c6be8ce6d6188c00c1ac61deabf82da2
+-cp ${HAXE_LIBCACHE}/linc_oggz/0.0.0/github/ff12d520c6be8ce6d6188c00c1ac61deabf82da2/
+-D linc_oggz=0.0.0

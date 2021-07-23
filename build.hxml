@@ -1,0 +1,3 @@
+-cp ./
+-cp test
+test/build.hxml

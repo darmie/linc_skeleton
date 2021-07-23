@@ -9,7 +9,13 @@
         <compilerflag value='-I${LINC_SKELETON_PATH}/linc/'/>
         <!-- <compilerflag value='-DEMPTY_EXAMPLE_DEFINE_FOR_THE_CPP_CODE'/> -->
 
-        <file name='${LINC_SKELETON_PATH}linc/linc_skeleton.cpp' />
+        <compilerflag value='-I${LINC_SKELETON_PATH}/lib/libskeleton/src/'/>
+        <compilerflag value='-I${LINC_SKELETON_PATH}/lib/libskeleton/include/'/>
+         <compilerflag value='-I${LINC_SKELETON_PATH}/lib/ogg/include/'/>
+
+        <file name='${LINC_SKELETON_PATH}lib/libskeleton/src/skeleton.c' />
+        <file name='${LINC_SKELETON_PATH}lib/libskeleton/src/skeleton_vector.c' />
+        <file name='${LINC_SKELETON_PATH}lib/libskeleton/src/skeleton_query.c' />
 
     </files>
 
